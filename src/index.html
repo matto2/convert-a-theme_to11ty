@@ -11,6 +11,9 @@
 <body>
   <div class="medium-container">
   <main>
+ <div class="flex-row"> 
+ <h1><img src="/assets/img/beautifulTamra.jpg">Tamra’s Daily List</h1>  
+</div>   
 <form name="checklist" method="POST" data-netlify="true">
   <h1><input id="today" type="date"></h1>
   <h2>Exercise </h2>
@@ -29,10 +32,7 @@
       <input type="checkbox"> I lifted weights today 🏋️‍♀️
     </label>
   </p>
-  <h2>Poop Notes 💩</h2>
-  <p>
-    <label>Describe your poop: <textarea name="poop"></textarea></label>
-  </p>
+ 
   
   <h2>Food/Drink</h2>
   <p>
@@ -114,6 +114,10 @@
     Water! 🚰
   </strong>
 </p>
+
+<label for="number">I drank this many… (Should = 8)</label>
+          <input id="number" type="number" placeholder="Enter a Number"> 
+<!--
     <label>
     <input type="checkbox"> 1
   </label>
@@ -138,8 +142,10 @@
               </label>
               <label>
       <input type="checkbox"> 8
-                </label>
-</p>
+    </label>
+
+-->
+  </p>
 
 <p>
   <strong>
@@ -167,6 +173,11 @@
 </p>
 
 </div>
+
+<h2>Poop Notes 💩</h2>
+<p>
+  <label>Describe your poop: <textarea name="poop"></textarea></label>
+</p>
 
   <p>
     <button type="submit">Send</button>
