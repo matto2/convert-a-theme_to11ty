@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+<div class="medium-container">Medium
+<div class="flex-row">
+	<div class="flex-small"></div>
+	<div class="flex-small"></div>
+</div>
+<div class="flex-row">
+	<div class="flex-large"></div>
+	<div class="flex-large"></div>
+</div>
+<p><button>Button</button>
+<input type="submit" value="Submit">
+<input type="button" value="Input">
+<a class="button">Link</a></p>
+
+<form name="checklist" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
+
+
+
+
+<form>
+  <label for="name">Name</label>
+  <input type="text" id="name" placeholder="First Name">
+  <label for="choose">Select</label>
+  <select id="choose">
+    <option disabled selected>Please select</option>
+    <option value="option-1">Option 1</option>
+    <option value="option-2">Option 2</option>
+  </select>
+  <label for="comments">Additional Comments</label>
+  <textarea id="comments"></textarea>
+  <label>
+    <input type="checkbox">
+    Remember me
+  </label>
+  <input type="submit" value="Submit">
+</form>
+<table>
+  <thead>
+    <tr>
+      <th>Head 1</th>
+      <th>Head 2</th>
+      <th>Head 3</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <th>Footer 1</th>
+      <th>Footer 2</th>
+      <th>Footer 3</th>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Description 1</td>
+      <td>Description 2</td>
+      <td>Description 3</td>
+    </tr>
+    <tr>
+      <td>Description 1</td>
+      <td>Description 2</td>
+      <td>Description 3</td>
+    </tr>
+    <tr>
+      <td>Description 1</td>
+      <td>Description 2</td>
+      <td>Description 3</td>
+    </tr>
+  </tbody>
+</table>
+<img src="#" class="responsive-image" alt="Responsive Image">
+</div>
+</body>
+</html>
