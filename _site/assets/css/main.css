@@ -758,7 +758,7 @@ label {
   font-weight: 600;
   max-width: 100%;
   display: block;
-  margin: 1rem 0 .5rem; }
+  margin: .2rem 0 .2rem; }
 
 @media (min-width: 600px) {
   .split-form label {
@@ -828,3 +828,11 @@ caption {
 /**
  * Layout
  */
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: minmax(1rem, 2rem) 1fr;
+  grid-gap: 1rem;
+  background-color: rgb(256, 256, 256);
+  margin-bottom: 2rem;
+}
