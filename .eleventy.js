@@ -2,7 +2,8 @@ module.exports = function(eleventyConfig) {
     
     eleventyConfig.addPassthroughCopy("assets")
 
-
+    eleventyConfig.addPassthroughCopy("apple-touch-icon.png")
+    
     return {
       passthroughFileCopy: true,  
       dir: {
