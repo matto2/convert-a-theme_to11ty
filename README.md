@@ -12,7 +12,7 @@ and
 
 But instead of a free theme I combined 11ty with Tania Rascia's lovely [Primitive UI boilerplate](https://taniarascia.github.io/primitive/)
 
-Huge thanks to [Zach Latherman/11ty](https://www.11ty.dev/), [Jason Lengstorf](https://www.learnwithjason.dev/), [Bryan Robinson](https://bryanlrobinson.com/), and [Tania Rascia](https://github.com/taniarascia), (and others, google searches, etc...)
+**Huge thanks** to [Zach Latherman/11ty](https://www.11ty.dev/), [Jason Lengstorf](https://www.learnwithjason.dev/), [Bryan Robinson](https://bryanlrobinson.com/), [Tania Rascia](https://github.com/taniarascia), github (you already here - so you know...), [Netlify](https://www.netlify.com/), (and others, google searches, etc...)
 
 Also, this site was made to help my wife more easily keep track of her post-surgery regimen (can be saved to home screen on iOs)...
 
