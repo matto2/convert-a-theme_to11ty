@@ -16,7 +16,13 @@
 </div>   
 <form name="checklist" method="POST" data-netlify="true">
   <label>Today's date<input id="today" type="date"></label>
-  <h3>Exercise </h3>
+
+  <h3 class="with-deets">Exercise </h3>
+  <details>
+    <summary>More info</summary>
+    Minimum 30 minutes cardio, plus at least 5 minutes each of stretching and weight lifting.
+  </details>
+
   <p>
     <label>
       <input type="checkbox"> I stretched today 🤸‍♀️
@@ -194,6 +200,11 @@
 							<a href="https://github.com/matto2/convert-a-theme_to11ty" target="_blank">View on GitHub</a>.</p>
   </div>
 </footer>
+<script>
 
+let today = new Date().toISOString().substr(0, 10);
+   document.querySelector("#today").value = today;
+
+</script>
 </body>
 </html>

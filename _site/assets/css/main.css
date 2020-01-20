@@ -836,3 +836,24 @@ caption {
   background-color: rgb(256, 256, 256);
   margin-bottom: 2rem;
 }
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: minmax(12rem, 12rem) 1fr;
+  grid-gap: 1rem;
+  align-items: center;
+}
+
+details {
+  display: block;
+  font-size: smaller;
+  color: #767676;
+}
+
+details :focus {
+  outline: none;
+}
+
+.with-deets {
+  margin-bottom: 0rem;
+}
