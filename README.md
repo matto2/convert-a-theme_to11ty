@@ -19,6 +19,7 @@ Also, this site was made to help my wife more easily keep track of her post-surg
 TODOS:
 * Pre-fill today's date by default
 * Add detailed descriptions of categories in popovers
+* Trigger number picker on iOs (instead of keyboard with numbers)
 * Turn into an app? Currently this only works as a _form_ so needs to be done all at once. Would be nice to preserve states so Tamra can fill it out throughout the day, and maybe have it automatically send / reset at midnight each day... (Can 11ty do that? Does it need to be turned into a PWA? Vue or React?)
 * Expose records of each day in searchable archive (with filters, etc) 
 * "White label" it - make it available to help other people??
