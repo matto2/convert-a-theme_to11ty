@@ -25,4 +25,4 @@ TODOS:
 * Expose records of each day in searchable archive (with filters, etc) aka METRICS!
 * "White label" it - make it available to help other people??
 
-I don't currently know how to do any of those things so I'm open to suggestions :)
+I don't currently know how to do any of those things so I'm open to suggestions 😀
